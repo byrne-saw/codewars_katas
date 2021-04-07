@@ -15,10 +15,21 @@ row_sum_odd_numbers(2); # 3 + 5 = 8
 """
 
 def row_sum_odd_numbers(n):
-    triangle = []
-    columns = 0
-    while len(columns) < n
-    for i in range(11):
+#     rows = n
+#     triangle_row_sum = 1
+#     triangle_row_summed = 0
+#     while rows > 0:
+#         for i in range(1, rows+1):
+#             triangle_row_sum += 2
+#             triangle_row_summed +=  triangle_row_summed + triangle_row_sum
+
+#         rows -= 1
+#     return triangle_row_summed
+
+# cry
+
+    return n ** 3
+        
 
 
         
